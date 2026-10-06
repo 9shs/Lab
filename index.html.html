@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>البحث وجمع المعلومات – المختبر</title>
+<style>
+:root{--bg:#f6f7f9;--fg:#1c2530;--card:#fff;--ac:#0f6b85;--bd:#d5dbe3;--mut:#5b6773;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14181e;--fg:#e8edf3;--card:#1e242c;--bd:#38414d;--ac:#5cc0dc;--mut:#9aa7b4}}
+:root[data-theme="dark"]{--bg:#14181e;--fg:#e8edf3;--card:#1e242c;--bd:#38414d;--ac:#5cc0dc;--mut:#9aa7b4}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:Tahoma,Arial,sans-serif;line-height:1.75}
+main{max-width:860px;margin:auto;padding:14px}
+h1{font-size:20px;margin:6px 0}h2{font-size:16px;margin:0 0 6px;color:var(--ac)}
+.bar{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+button,select,textarea,input{font:inherit;color:var(--fg);background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:6px 10px}
+button{cursor:pointer}button.on{background:var(--ac);color:#fff;border-color:var(--ac)}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:12px;margin:10px 0}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.g label{display:block;font-size:13px;color:var(--mut)}.g input{width:100%;box-sizing:border-box}
+.k{font-size:22px;font-weight:bold}.s{font-size:12px;color:var(--mut)}
+.ok{color:#1a8f4a}.bad{color:#d33}.mid{color:#d98a00}
+table{width:100%;border-collapse:collapse;font-size:14px}td,th{border-bottom:1px solid var(--bd);padding:5px;text-align:right}
+.wrap{overflow-x:auto}
+.b{height:10px;background:var(--bd);border-radius:5px;overflow:hidden}.b i{display:block;height:100%}
+.q{padding:6px 0;border-bottom:1px solid var(--bd)}.q div{display:flex;gap:4px;flex-wrap:wrap;margin-top:4px}
+.q label{border:1px solid var(--bd);border-radius:8px;padding:2px 8px;font-size:13px;cursor:pointer}
+a{color:var(--ac)}li{margin:3px 0}
+section{display:none}section.on{display:block}
+</style></head><body><main>
+<h1>البحث النظري وجمع المعلومات – إعادة تأهيل المختبر</h1>
+<div class="bar" id="tabs"><button data-t="0" class="on">الإطار النظري</button><button data-t="1">القياس والمساحات</button><button data-t="2">استبانة الطلاب</button><button data-t="3">معلومات ناقصة</button></div>
+
+<section id="s0" class="on">
+<div class="card"><h2>1) الصوت ووضوح الشرح</h2><ul>
+<li>معيار ANSI/ASA S12.60 للفصول: ضجيج الخلفية في الفصل الفارغ ≤ 35 ديسيبل (A)، وزمن الصدى RT60 ≤ 0.6 ث للفصل أقل من 10,000 قدم³ (≈ 283 م³)، و≤ 0.7 ث للحجم بين 10,000 و20,000 قدم³. المعيار طوعي ما لم تُلزم به أنظمة محلية.</li>
+<li>يوصى بنسبة إشارة إلى ضجيج ≥ +15 ديسيبل عند كل مقعد؛ والحديث العادي نحو 60 ديسيبل، فيضعف الصوت مع المسافة.</li>
+<li>الأسطح الصلبة العاكسة وقلة المواد الماصة ترفع الصدى وتقلل الفهم؛ وتتسبب مكيفات الغرفة وضجيج الممر في ضجيج الخلفية.</li>
+<li>تطبيق على مختبرنا: الحجم التقديري ≈ 331 م³ (≈ 11,700 قدم³)، فالحد الأعلى للصدى 0.7 ث (راجع تبويب القياس).</li></ul></div>
+<div class="card"><h2>2) المساحة والسعة</h2><ul>
+<li>NSTA (الجمعية الأمريكية لمعلمي العلوم): 50 قدم² (≈ 4.65 م²) صافية للطالب في مختبر خالص، و60 قدم² (≈ 5.57 م²) في فصل/مختبر مدمج، وبحد أقصى 24 طالباً.</li>
+<li>ولاية تكساس (TEA): 42 قدم² (≈ 3.9 م²) للطالب في المختبر، و58 قدم² (≈ 5.4 م²) للفصل المدمج.</li>
+<li>الأدبيات تربط الازدحام (حجم الصف، ومساحة العمل لكل طالب) بزيادة حوادث المختبر، وليست المساحة وحدها بل نسبة الطلاب إليها.</li>
+<li>مساحة عمل أفقية بنحو 6 قدم² (≈ 0.56 م²) لكل طالب، وعرض لا يقل عن 0.6 م لكل طالب في المراجع البريطانية؛ وطاولتنا 1.2×0.6 م تتسع لطالبين بحد أدنى.</li></ul></div>
+<div class="card"><h2>3) السلامة وغرفة المواد الكيميائية</h2><ul>
+<li>غرفة تخزين بحجم كافٍ، جيدة التهوية، مقفلة، مع سجل جرد وفصل الأحماض عن القواعد والمؤكسدات.</li>
+<li>منطقة تحضير فيها حوض وخزانة سحب، وغسّالة عيون ودش طوارئ بمعيار ANSI Z358.1، وطفاية ومخرجان واضحان وممرات خالية.</li>
+<li>تهوية الأماكن النشطة بمعدل 6–9 تغييرات هواء في الساعة وفق أحد مراجع تصميم المختبرات المدرسية (يُراجع مع المهندس المختص).</li></ul></div>
+<div class="card"><h2>4) منهجية جمع البيانات</h2><ol>
+<li>قياس الأبعاد بمتر ليزري (3 قياسات لكل بعد وتؤخذ القيمة المتوسطة)، مع الارتفاع وموضع الأبواب.</li>
+<li>قياس الصوت بتطبيق على الجوال: ضجيج الغرفة وهي صامتة، ثم جملة بصوت عادي عند 4 مقاعد.</li>
+<li>استبانة الطلاب (تبويب 3) وملاحظة صفية مع صور قبل/بعد.</li>
+<li>مقارنة النتائج بالمراجع، ثم اختيار الحل وتجربته أسبوعين وإعادة القياس.</li></ol></div>
+<div class="card"><h2>المصادر</h2><ul class="s">
+<li><a href="https://www.armstrong.com/en-us/articles/classroom-acoustics-ansi-standard.html">Armstrong – ANSI S12.60 للفصول</a></li>
+<li><a href="https://boxlight.com/resources/k12-school-planning-tools/classroom-audio">Boxlight – نسبة الإشارة إلى الضجيج +15 ديسيبل</a></li>
+<li><a href="https://static.nsta.org/pdfs/overcrowdingintheinstructionalspace.pdf">NSTA – الازدحام في الحيز التعليمي</a></li>
+<li><a href="https://vlkarchitects.com/how-to-design-a-fantastic-high-school-science-lab-for-inquiry-based-learning-within-tea-design-requirements/">VLK – متطلبات TEA لمختبرات العلوم</a></li>
+<li><a href="https://sc.teachers.ab.ca/SiteCollectionDocuments/SC.teachers.ab.ca/Connecting%20Science%20Teachers/Lab%20Safety/SafetyScienceClassroom-Chpt03.pdf">Alberta Teachers – السلامة في فصل العلوم</a></li>
+<li><a href="https://pubs.royle.com/article/Lab+Safety/3680577/661077/article.html">Learning By Design – سلامة المختبر</a></li>
+<li><a href="https://edu.rsc.org/download?ac=13913">RSC – مرافق المختبرات (بريطانيا)</a></li></ul>
+<div class="s">هذه مراجع دولية للاسترشاد؛ تُراجع الاشتراطات المعتمدة لدى وزارة التعليم والدفاع المدني قبل التنفيذ.</div></div>
+</section>
+
+<section id="s1">
+<div class="card"><h2>مدخلات القياس (عدّلها بالأرقام الفعلية)</h2><div class="g" id="inp"></div></div>
+<div class="card"><h2>النتائج</h2><div class="g" id="out"></div></div>
+<div class="card wrap"><h2>مقارنة المساحة للطالب بالمراجع</h2><table id="cmp"></table></div>
+<div class="card"><h2>الصدى المطلوب معالجته</h2><div id="rt"></div></div>
+</section>
+
+<section id="s2">
+<div class="card"><h2>استبانة الطلاب (بدون أسماء)</h2>
+<div class="s">قيّم كل عبارة من 1 (لا أوافق بشدة) إلى 5 (أوافق بشدة). تُحفظ الإجابات على هذا الجهاز فقط؛ مرّر الجهاز بين الطلاب أو أدخل الإجابات الورقية.</div>
+<div id="qs"></div>
+<div class="bar"><select id="seat"><option value="">موقع مقعدك…</option><option>الصف 1 (الأقرب للسبورة)</option><option>الصف 2</option><option>الصف 3</option><option>الصف 4 (الأبعد)</option></select>
+<select id="pos"><option value="">في الصف…</option><option>وسط الصف</option><option>طرف الصف</option></select></div>
+<textarea id="cm" rows="3" style="width:100%;box-sizing:border-box" placeholder="ما أبرز شكوى أو اقتراح لديك؟"></textarea>
+<div class="bar"><button id="sv" class="on">حفظ الإجابة</button><span id="msg" class="s"></span></div></div>
+<div class="card"><h2>ملخص النتائج</h2><div id="res"></div>
+<div class="bar"><button id="cp">نسخ الملخص</button><button id="clr">مسح كل الإجابات</button></div></div>
+</section>
+
+<section id="s3">
+<div class="card"><h2>معلومات أحتاجها منك لتدقيق المخطط والتقرير</h2><div class="s">علّم ما تم جمعه (يُحفظ على جهازك).</div><div id="ck"></div></div>
+</section>
+
+<script>
+const $=id=>document.getElementById(id);
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch(e){return false}}};
+// tabs
+$('tabs').onclick=e=>{const b=e.target.closest('button');if(!b)return;[...$('tabs').children].forEach(x=>x.classList.toggle('on',x===b));document.querySelectorAll('section').forEach((s,i)=>s.classList.toggle('on',i==b.dataset.t))};
+// calculator
+const F=[['fw','عرض الجزء الأمامي (م)',5.6],['fl','طول الجزء الأمامي (م)',8],['bw','عرض الجزء الخلفي (م)',8.4],['bl','عمق الجزء الخلفي (م)',7.8],['h','ارتفاع السقف (م) – تقدير',3],['st','عدد الطلاب في الفصل',40],['tb','عدد الطاولات',20],['tw','طول الطاولة (م)',1.2],['td','عرض الطاولة (م)',0.6],['fx','أثاث ثابت وخزائن (م²)',0]];
+$('inp').innerHTML=F.map(f=>`<div><label>${f[1]}<input type="number" step="0.1" id="${f[0]}" value="${f[2]}"></label></div>`).join('');
+const REF=[['NSTA – مختبر خالص',50],['NSTA – فصل/مختبر مدمج',60],['TEA – مختبر',42]];
+function calc(){const v=k=>parseFloat($(k).value)||0;
+ const fa=v('fw')*v('fl'),ba=v('bw')*v('bl'),A=fa+ba,net=Math.max(A-v('fx'),0),V=A*v('h'),ft3=V*35.315;
+ const per=2*(Math.max(v('fw'),v('bw'))+v('fl')+v('bl')),wall=per*v('h')-2*0.9*2.1;
+ const tA=v('tb')*v('tw')*v('td'),pp=v('st')?net/v('st'):0,lim=ft3<10000?0.6:ft3<=20000?0.7:null;
+ const o=[[fa.toFixed(1)+' م²','مساحة الجزء الأمامي'],[ba.toFixed(1)+' م²','مساحة الجزء الخلفي'],[A.toFixed(1)+' م²','المساحة الكلية'],[net.toFixed(1)+' م²','الصافية بعد الأثاث الثابت'],[V.toFixed(0)+' م³','الحجم ('+Math.round(ft3).toLocaleString('en')+' قدم³)'],[per.toFixed(1)+' م','المحيط'],[wall.toFixed(0)+' م²','مساحة الجدران تقريباً'],[tA.toFixed(1)+' م²','مساحة الطاولات ('+(A?(tA/A*100).toFixed(0):0)+'% من الغرفة)'],[pp.toFixed(2)+' م²','مساحة صافية لكل طالب']];
+ $('out').innerHTML=o.map(a=>`<div><div class="k">${a[0]}</div><div class="s">${a[1]}</div></div>`).join('');
+ $('cmp').innerHTML='<tr><th>المرجع</th><th>المطلوب/طالب</th><th>الوضع</th><th>أقصى عدد طلاب</th></tr>'+REF.map(r=>{const m=r[1]*0.0929,ok=pp>=m;return`<tr><td>${r[0]}</td><td>${m.toFixed(2)} م²</td><td class="${ok?'ok':'bad'}">${ok?'مطابق':'أقل من المرجع'}</td><td>${Math.floor(net/m)}</td></tr>`}).join('');
+ const need=lim?0.161*V/lim:0;
+ $('rt').innerHTML=lim?`حجم الغرفة يضع الحد الأعلى لزمن الصدى عند <b>${lim} ث</b>. وفق معادلة سابين (RT = 0.161×V÷A) يجب ألا تقل المساحة الماصة الكلية عن <b>${need.toFixed(0)} م² سابين</b> (وحدة امتصاص). قس زمن الصدى الفعلي بتطبيق، وإن زاد عن الحد فأضف مواد ماصة (ألواح، ستائر ثقيلة، سقف ماص) وتحقق بعد التركيب.`:'الحجم كبير؛ استشر مختصاً صوتياً.'}
+$('inp').oninput=calc;calc();
+// survey
+const Q=['أسمع شرح المعلم بوضوح من مقعدي.','أسمع أسئلة زملائي بوضوح.','ضجيج الممر والخارج لا يشتتني.','صوت المكيف وجهاز العرض لا يمنعني من السماع.','أرى السبورة بوضوح من مقعدي.','أستطيع التنقل بين الطاولات بسهولة.','أشعر بالأمان في المختبر (مخارج وأدوات سلامة).','لدي مساحة كافية على الطاولة للتجربة.'];
+$('qs').innerHTML=Q.map((q,i)=>`<div class="q"><b>${i+1}.</b> ${q}<div>${[1,2,3,4,5].map(n=>`<label><input type="radio" name="q${i}" value="${n}"> ${n}</label>`).join('')}</div></div>`).join('');
+const sc=c=>c<3?'#d33':c<4?'#d98a00':'#1a8f4a';
+function render(){const R=store.get('lab_survey',[]);
+ if(!R.length){$('res').innerHTML='<div class="s">لا توجد إجابات بعد.</div>';return}
+ const av=Q.map((q,i)=>R.reduce((s,r)=>s+r.a[i],0)/R.length);
+ let h=`<div class="s">عدد الإجابات: <b>${R.length}</b></div>`+Q.map((q,i)=>`<div class="q">${q} <b style="color:${sc(av[i])}">${av[i].toFixed(1)}</b><div class="b"><i style="width:${av[i]*20}%;background:${sc(av[i])}"></i></div></div>`).join('');
+ const g={};R.forEach(r=>{const k=r.seat||'غير محدد';(g[k]=g[k]||[]).push(r.a[0])});
+ h+='<h2 style="margin-top:12px">وضوح سماع الشرح حسب الصف</h2><table>'+Object.keys(g).sort().map(k=>`<tr><td>${k}</td><td>${g[k].length} طالب</td><td><b style="color:${sc(g[k].reduce((a,b)=>a+b,0)/g[k].length)}">${(g[k].reduce((a,b)=>a+b,0)/g[k].length).toFixed(1)}</b></td></tr>`).join('')+'</table>';
+ const C=R.filter(r=>r.c);if(C.length)h+='<h2 style="margin-top:12px">الشكاوى والاقتراحات</h2><ul>'+C.map(r=>`<li>${r.c.replace(/</g,'&lt;')}</li>`).join('')+'</ul>';
+ $('res').innerHTML=h;window._sum=`ملخص استبانة المختبر (${R.length} إجابة)\n`+Q.map((q,i)=>`${q} → ${av[i].toFixed(1)}/5`).join('\n')+(C.length?'\nالشكاوى:\n'+C.map(r=>'- '+r.c).join('\n'):'')}
+$('sv').onclick=()=>{const a=Q.map((q,i)=>{const e=document.querySelector(`input[name=q${i}]:checked`);return e?+e.value:0});
+ if(a.includes(0)){$('msg').textContent='أجب عن جميع العبارات أولاً.';return}
+ const R=store.get('lab_survey',[]);R.push({a,seat:$('seat').value,pos:$('pos').value,c:$('cm').value.trim()});
+ $('msg').textContent=store.set('lab_survey',R)?'تم الحفظ ✓':'تعذر الحفظ على هذا المتصفح.';
+ document.querySelectorAll('#qs input').forEach(x=>x.checked=false);$('cm').value='';render()};
+$('cp').onclick=async()=>{try{await navigator.clipboard.writeText(window._sum||'');$('msg').textContent='تم النسخ ✓'}catch(e){$('msg').textContent='تعذر النسخ تلقائياً.'}};
+$('clr').onclick=()=>{if(confirm('مسح كل الإجابات؟')){store.set('lab_survey',[]);render()}};render();
+// checklist
+const K=['ارتفاع السقف الفعلي','عدد الطلاب في الشعبة الواحدة','هل الطاولات الـ20 متحركة؟ وهل في الغرفة طاولات مختبر ثابتة بأحواض؟','موضع البابين بالضبط من الزاوية واتجاه فتحهما','موضع السبورة وحجمها وجهاز العرض','أبعاد وموضع غرفة المواد الكيميائية الملتصقة','مواقع المكيفات والنوافذ','مصادر الماء والغاز والكهرباء','أماكن الخزائن والتجهيزات الثابتة','قراءة ضجيج الغرفة وزمن الصدى بالقياس','عدد الصفوف/الحصص التي تستخدم المختبر يومياً'];
+const ck=store.get('lab_ck',{});
+$('ck').innerHTML=K.map((k,i)=>`<label style="display:block;margin:6px 0"><input type="checkbox" data-i="${i}" ${ck[i]?'checked':''}> ${k}</label>`).join('');
+$('ck').onchange=e=>{ck[e.target.dataset.i]=e.target.checked;store.set('lab_ck',ck)};
+</script></main></body></html>
